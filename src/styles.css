@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+.form-group input {
+    font-weight: 500;
+}
+
+.form-group input::placeholder {
+    color:lightgray;
+    font-weight: 100;
+}
+
+thead th{
+    font-weight: 400;
+}
+
+table tbody tr:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+input:invalid {
+    border:red;
+}
